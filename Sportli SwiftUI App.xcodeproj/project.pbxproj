@@ -11,6 +11,8 @@
 		3A16768B2AF3F6040059E19D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16768A2AF3F6040059E19D /* ContentView.swift */; };
 		3A16768D2AF3F6050059E19D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A16768C2AF3F6050059E19D /* Assets.xcassets */; };
 		3A1676902AF3F6050059E19D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A16768F2AF3F6050059E19D /* Preview Assets.xcassets */; };
+		3A1676A02AF41D1F0059E19D /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16769F2AF41D1F0059E19D /* FeedView.swift */; };
+		3A1676A32AF442240059E19D /* PostRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676A22AF442240059E19D /* PostRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3A16768A2AF3F6040059E19D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A16768C2AF3F6050059E19D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A16768F2AF3F6050059E19D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A16769F2AF41D1F0059E19D /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		3A1676A22AF442240059E19D /* PostRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,10 @@
 		3A1676872AF3F6040059E19D /* Sportli SwiftUI App */ = {
 			isa = PBXGroup;
 			children = (
+				3A16769A2AF41B810059E19D /* Extensions */,
+				3A1676992AF41B7E0059E19D /* Model */,
+				3A1676972AF41B710059E19D /* Service */,
+				3A1676962AF41B5F0059E19D /* Core */,
 				3A1676882AF3F6040059E19D /* Sportli_SwiftUI_AppApp.swift */,
 				3A16768A2AF3F6040059E19D /* ContentView.swift */,
 				3A16768C2AF3F6050059E19D /* Assets.xcassets */,
@@ -65,6 +73,76 @@
 				3A16768F2AF3F6050059E19D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A1676962AF41B5F0059E19D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3A16769B2AF41BEB0059E19D /* Components */,
+				3A16769C2AF41C1B0059E19D /* Feed */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3A1676972AF41B710059E19D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3A1676992AF41B7E0059E19D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A16769A2AF41B810059E19D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A16769B2AF41BEB0059E19D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3A1676A12AF4417F0059E19D /* Posts */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3A16769C2AF41C1B0059E19D /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				3A16769D2AF41C7D0059E19D /* ViewModels */,
+				3A16769E2AF41CC60059E19D /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		3A16769D2AF41C7D0059E19D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3A16769E2AF41CC60059E19D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A16769F2AF41D1F0059E19D /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A1676A12AF4417F0059E19D /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				3A1676A22AF442240059E19D /* PostRowView.swift */,
+			);
+			path = Posts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A16768B2AF3F6040059E19D /* ContentView.swift in Sources */,
+				3A1676A32AF442240059E19D /* PostRowView.swift in Sources */,
+				3A1676A02AF41D1F0059E19D /* FeedView.swift in Sources */,
 				3A1676892AF3F6040059E19D /* Sportli_SwiftUI_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
