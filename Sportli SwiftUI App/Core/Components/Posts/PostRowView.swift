@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PostRowView: View {
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack {
             // profile image & user info & caption
             HStack(alignment: .top, spacing: 12) {
                 Circle()
@@ -61,12 +61,17 @@ struct PostRowView: View {
                         
                     }
                     .foregroundStyle(.gray)
-                    .padding(.vertical, 8)
+                    .padding(.vertical, 5)
                 }
+                
             }
-            .padding()
+            Group {
+                Divider()
+                    .overlay(.white)
+            }
+            .frame(width: 400)
         }
-        Divider()
+        .padding()
     }
 }
 
