@@ -13,6 +13,11 @@
 		3A1676902AF3F6050059E19D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A16768F2AF3F6050059E19D /* Preview Assets.xcassets */; };
 		3A1676A02AF41D1F0059E19D /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16769F2AF41D1F0059E19D /* FeedView.swift */; };
 		3A1676A32AF442240059E19D /* PostRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676A22AF442240059E19D /* PostRowView.swift */; };
+		3A1676C02AF4665B0059E19D /* Nokora-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1676BB2AF4665B0059E19D /* Nokora-Light.ttf */; };
+		3A1676C12AF4665B0059E19D /* Nokora-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1676BC2AF4665B0059E19D /* Nokora-Thin.ttf */; };
+		3A1676C22AF4665B0059E19D /* Nokora-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1676BD2AF4665B0059E19D /* Nokora-Black.ttf */; };
+		3A1676C32AF4665B0059E19D /* Nokora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1676BE2AF4665B0059E19D /* Nokora-Bold.ttf */; };
+		3A1676C42AF4665B0059E19D /* Nokora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1676BF2AF4665B0059E19D /* Nokora-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,12 @@
 		3A16768F2AF3F6050059E19D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A16769F2AF41D1F0059E19D /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		3A1676A22AF442240059E19D /* PostRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowView.swift; sourceTree = "<group>"; };
+		3A1676BA2AF463430059E19D /* Sportli-SwiftUI-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sportli-SwiftUI-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3A1676BB2AF4665B0059E19D /* Nokora-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nokora-Light.ttf"; sourceTree = "<group>"; };
+		3A1676BC2AF4665B0059E19D /* Nokora-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nokora-Thin.ttf"; sourceTree = "<group>"; };
+		3A1676BD2AF4665B0059E19D /* Nokora-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nokora-Black.ttf"; sourceTree = "<group>"; };
+		3A1676BE2AF4665B0059E19D /* Nokora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nokora-Bold.ttf"; sourceTree = "<group>"; };
+		3A1676BF2AF4665B0059E19D /* Nokora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nokora-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +66,8 @@
 		3A1676872AF3F6040059E19D /* Sportli SwiftUI App */ = {
 			isa = PBXGroup;
 			children = (
+				3A1676BA2AF463430059E19D /* Sportli-SwiftUI-App-Info.plist */,
+				3A1676A42AF45C3F0059E19D /* ProjectFonts */,
 				3A16769A2AF41B810059E19D /* Extensions */,
 				3A1676992AF41B7E0059E19D /* Model */,
 				3A1676972AF41B710059E19D /* Service */,
@@ -145,6 +158,18 @@
 			path = Posts;
 			sourceTree = "<group>";
 		};
+		3A1676A42AF45C3F0059E19D /* ProjectFonts */ = {
+			isa = PBXGroup;
+			children = (
+				3A1676BD2AF4665B0059E19D /* Nokora-Black.ttf */,
+				3A1676BE2AF4665B0059E19D /* Nokora-Bold.ttf */,
+				3A1676BB2AF4665B0059E19D /* Nokora-Light.ttf */,
+				3A1676BF2AF4665B0059E19D /* Nokora-Regular.ttf */,
+				3A1676BC2AF4665B0059E19D /* Nokora-Thin.ttf */,
+			);
+			path = ProjectFonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,8 +228,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1676C02AF4665B0059E19D /* Nokora-Light.ttf in Resources */,
+				3A1676C12AF4665B0059E19D /* Nokora-Thin.ttf in Resources */,
 				3A1676902AF3F6050059E19D /* Preview Assets.xcassets in Resources */,
+				3A1676C42AF4665B0059E19D /* Nokora-Regular.ttf in Resources */,
 				3A16768D2AF3F6050059E19D /* Assets.xcassets in Resources */,
+				3A1676C22AF4665B0059E19D /* Nokora-Black.ttf in Resources */,
+				3A1676C32AF4665B0059E19D /* Nokora-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +384,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Sportli SwiftUI App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sportli-SwiftUI-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -382,6 +413,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Sportli SwiftUI App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sportli-SwiftUI-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

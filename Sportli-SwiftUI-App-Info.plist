@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Nokora-Black.ttf</string>
+		<string>Nokora-Bold.ttf</string>
+		<string>Nokora-Light.ttf</string>
+		<string>Nokora-Regular.ttf</string>
+		<string>Nokora-Thin.ttf</string>
+	</array>
+</dict>
+</plist>
