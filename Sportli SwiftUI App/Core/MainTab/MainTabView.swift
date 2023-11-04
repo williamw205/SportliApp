@@ -10,11 +10,9 @@ import SwiftUI
 struct MainTabView: View {
     @State var currentTab: Tab = .home
     
-    @State private var selectedIndex = 0
-    
     var body: some View {
     
-        VStack {
+        VStack(spacing: -100) {
             TabView(selection: $currentTab) {
                 
                 FeedView()
@@ -32,8 +30,12 @@ struct MainTabView: View {
                 MessagesView()
                     .tag(Tab.messages)
             }
+            
+            
             CustomTabBar(currentTab: $currentTab)
+           
         }
+       
     }
 }
 
