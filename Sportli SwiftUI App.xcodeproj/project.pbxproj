@@ -25,6 +25,7 @@
 		3A1676D02AF4AA310059E19D /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676CF2AF4AA310059E19D /* EventsView.swift */; };
 		3A1676D22AF4AA500059E19D /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676D12AF4AA500059E19D /* LeaderboardView.swift */; };
 		3A1676D42AF4AA680059E19D /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676D32AF4AA680059E19D /* MessagesView.swift */; };
+		3A55363B2AF7005A009E52E7 /* FeedFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55363A2AF7005A009E52E7 /* FeedFilterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		3A1676CF2AF4AA310059E19D /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
 		3A1676D12AF4AA500059E19D /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 		3A1676D32AF4AA680059E19D /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		3A55363A2AF7005A009E52E7 /* FeedFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedFilterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		3A16769D2AF41C7D0059E19D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				3A55363A2AF7005A009E52E7 /* FeedFilterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				3A017DA62AF69AE4008EC8DF /* CustomTabBar.swift in Sources */,
 				3A1676D42AF4AA680059E19D /* MessagesView.swift in Sources */,
 				3A1676D02AF4AA310059E19D /* EventsView.swift in Sources */,
+				3A55363B2AF7005A009E52E7 /* FeedFilterViewModel.swift in Sources */,
 				3A1676A32AF442240059E19D /* PostRowView.swift in Sources */,
 				3A1676A02AF41D1F0059E19D /* FeedView.swift in Sources */,
 				3A1676892AF3F6040059E19D /* Sportli_SwiftUI_AppApp.swift in Sources */,

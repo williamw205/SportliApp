@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+enum FeedFilterViewModel: Int, CaseIterable {
+    case friends
+    case news
+    
+    var title: String {
+        switch self {
+        case .friends: return "Friends"
+        case .news: return "News"
+        }
+    }
+}
+
