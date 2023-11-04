@@ -32,7 +32,9 @@ struct MainTabView: View {
             }
             
             
+            
             CustomTabBar(currentTab: $currentTab)
+            
            
         }
        

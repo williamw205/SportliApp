@@ -25,17 +25,17 @@ struct CustomTabBar: View {
                         Image(tab.rawValue)
                             .renderingMode(.template)
                             .frame(maxWidth: .infinity)
-                            .foregroundColor(.white)
-                            .offset(y: currentTab == tab ? -17 : 0)
+                            .foregroundColor(currentTab == tab ? .white : .gray)
+                            
                     }
                 }
             }
             .frame(maxWidth: .infinity)
         }
         .frame(height: 24)
-        .padding(.top, 30)
-        .background(.ultraThinMaterial)
-        .background(LinearGradient(colors: backgroundColors, startPoint: .leading, endPoint: .trailing))
+        .padding(.top, 19)
+        .background(Color("headerColor"))
+        
     }
 }
 
