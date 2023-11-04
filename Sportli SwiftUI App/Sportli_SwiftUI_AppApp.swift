@@ -11,7 +11,9 @@ import SwiftUI
 struct Sportli_SwiftUI_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            FeedView()
+            MainTabView()
         }
     }
 }
+
+

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A017DA42AF69801008EC8DF /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A017DA32AF69801008EC8DF /* TabData.swift */; };
+		3A017DA62AF69AE4008EC8DF /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A017DA52AF69AE4008EC8DF /* CustomTabBar.swift */; };
 		3A1676892AF3F6040059E19D /* Sportli_SwiftUI_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676882AF3F6040059E19D /* Sportli_SwiftUI_AppApp.swift */; };
 		3A16768B2AF3F6040059E19D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16768A2AF3F6040059E19D /* ContentView.swift */; };
 		3A16768D2AF3F6050059E19D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A16768C2AF3F6050059E19D /* Assets.xcassets */; };
@@ -18,9 +20,16 @@
 		3A1676C22AF4665B0059E19D /* Nokora-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1676BD2AF4665B0059E19D /* Nokora-Black.ttf */; };
 		3A1676C32AF4665B0059E19D /* Nokora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1676BE2AF4665B0059E19D /* Nokora-Bold.ttf */; };
 		3A1676C42AF4665B0059E19D /* Nokora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1676BF2AF4665B0059E19D /* Nokora-Regular.ttf */; };
+		3A1676C72AF4A7460059E19D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676C62AF4A7460059E19D /* MainTabView.swift */; };
+		3A1676CE2AF4AA150059E19D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676CD2AF4AA150059E19D /* SearchView.swift */; };
+		3A1676D02AF4AA310059E19D /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676CF2AF4AA310059E19D /* EventsView.swift */; };
+		3A1676D22AF4AA500059E19D /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676D12AF4AA500059E19D /* LeaderboardView.swift */; };
+		3A1676D42AF4AA680059E19D /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676D32AF4AA680059E19D /* MessagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A017DA32AF69801008EC8DF /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		3A017DA52AF69AE4008EC8DF /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		3A1676852AF3F6040059E19D /* Sportli SwiftUI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sportli SwiftUI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1676882AF3F6040059E19D /* Sportli_SwiftUI_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sportli_SwiftUI_AppApp.swift; sourceTree = "<group>"; };
 		3A16768A2AF3F6040059E19D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +43,11 @@
 		3A1676BD2AF4665B0059E19D /* Nokora-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nokora-Black.ttf"; sourceTree = "<group>"; };
 		3A1676BE2AF4665B0059E19D /* Nokora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nokora-Bold.ttf"; sourceTree = "<group>"; };
 		3A1676BF2AF4665B0059E19D /* Nokora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nokora-Regular.ttf"; sourceTree = "<group>"; };
+		3A1676C62AF4A7460059E19D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3A1676CD2AF4AA150059E19D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3A1676CF2AF4AA310059E19D /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		3A1676D12AF4AA500059E19D /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		3A1676D32AF4AA680059E19D /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				3A16769B2AF41BEB0059E19D /* Components */,
+				3A1676CC2AF4A9D60059E19D /* Profile */,
+				3A1676CB2AF4A95E0059E19D /* Search */,
+				3A1676CA2AF4A9510059E19D /* Events */,
+				3A1676C92AF4A94D0059E19D /* Leaderboard */,
+				3A1676C82AF4A94A0059E19D /* Messages */,
+				3A1676C52AF4A7270059E19D /* MainTab */,
 				3A16769C2AF41C1B0059E19D /* Feed */,
 			);
 			path = Core;
@@ -107,6 +127,7 @@
 		3A1676992AF41B7E0059E19D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3A017DA32AF69801008EC8DF /* TabData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +189,54 @@
 				3A1676BC2AF4665B0059E19D /* Nokora-Thin.ttf */,
 			);
 			path = ProjectFonts;
+			sourceTree = "<group>";
+		};
+		3A1676C52AF4A7270059E19D /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				3A1676C62AF4A7460059E19D /* MainTabView.swift */,
+				3A017DA52AF69AE4008EC8DF /* CustomTabBar.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		3A1676C82AF4A94A0059E19D /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				3A1676D32AF4AA680059E19D /* MessagesView.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		3A1676C92AF4A94D0059E19D /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				3A1676D12AF4AA500059E19D /* LeaderboardView.swift */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
+		3A1676CA2AF4A9510059E19D /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				3A1676CF2AF4AA310059E19D /* EventsView.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		3A1676CB2AF4A95E0059E19D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				3A1676CD2AF4AA150059E19D /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		3A1676CC2AF4A9D60059E19D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,10 +314,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1676D22AF4AA500059E19D /* LeaderboardView.swift in Sources */,
+				3A017DA42AF69801008EC8DF /* TabData.swift in Sources */,
 				3A16768B2AF3F6040059E19D /* ContentView.swift in Sources */,
+				3A017DA62AF69AE4008EC8DF /* CustomTabBar.swift in Sources */,
+				3A1676D42AF4AA680059E19D /* MessagesView.swift in Sources */,
+				3A1676D02AF4AA310059E19D /* EventsView.swift in Sources */,
 				3A1676A32AF442240059E19D /* PostRowView.swift in Sources */,
 				3A1676A02AF41D1F0059E19D /* FeedView.swift in Sources */,
 				3A1676892AF3F6040059E19D /* Sportli_SwiftUI_AppApp.swift in Sources */,
+				3A1676CE2AF4AA150059E19D /* SearchView.swift in Sources */,
+				3A1676C72AF4A7460059E19D /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+enum Tab: String, CaseIterable {
+    case home = "home"
+    case search = "search"
+    case events = "calendar"
+    case leaderboard = "trophy"
+    case messages = "mail"
+}

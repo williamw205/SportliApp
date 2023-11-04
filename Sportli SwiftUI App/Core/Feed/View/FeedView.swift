@@ -9,15 +9,30 @@ import SwiftUI
 
 struct FeedView: View {
     var body: some View {
-       
-        ScrollView {
-            LazyVStack {
-                ForEach(0...20, id: \.self) { _ in
-                    PostRowView()
+        
+        
+        VStack {
+            ZStack (alignment: .bottomLeading) {
+                Color("headerColor")
+                    .ignoresSafeArea()
+                
+                Image("Sportli-Logo")
+                    .offset(x: 166, y: -9)
+                
+            }
+            .frame(height: 60)
+            
+            ScrollView {
+                LazyVStack {
+                    ForEach(0...20, id: \.self) { _ in
+                        PostRowView()
+                    }
                 }
             }
+            
         }
         .background(Color("bkColor"))
+               
     }
 }
 
