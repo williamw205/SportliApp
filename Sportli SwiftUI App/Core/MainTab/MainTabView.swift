@@ -31,11 +31,8 @@ struct MainTabView: View {
                     .tag(Tab.messages)
             }
             
-            
-            
             CustomTabBar(currentTab: $currentTab)
             
-           
         }
        
     }

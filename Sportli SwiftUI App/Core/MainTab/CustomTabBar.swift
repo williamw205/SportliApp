@@ -26,7 +26,6 @@ struct CustomTabBar: View {
                             .renderingMode(.template)
                             .frame(maxWidth: .infinity)
                             .foregroundColor(currentTab == tab ? .white : .gray)
-                            
                     }
                 }
             }
