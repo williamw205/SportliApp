@@ -29,7 +29,7 @@ struct FeedView: View {
                 }
                 .frame(height: 70)
                 
-                ZStack  {
+                ZStack (alignment: .bottomTrailing) {
                     
                     feedsView
                     
@@ -43,8 +43,11 @@ struct FeedView: View {
                             .foregroundStyle(Color("tqColor"))
                             .background(Color(.white))
                             .clipShape(Circle())
-                            .offset(x: 159, y: 265)
+                            //.offset(x: 159, y: 265)
                         }
+                    
+                    .padding(.vertical, 30)
+                    .padding(.trailing, 20)
                 }
                 
                 }
