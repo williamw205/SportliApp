@@ -20,8 +20,11 @@ struct FeedView: View {
                         .ignoresSafeArea()
                         .shadow(color: .black, radius: 5, x: 0, y: 0)
                     
-                    Image("Sportli-Logo")
-                        .offset(x: 166, y: -28)
+                    Image("Logo")
+                        .resizable()
+                        .offset(x: 140, y: -36)
+                        .scaledToFill()
+                        .frame(width: 120, height: 25)
         
                     feedFilterBar
                     
@@ -43,14 +46,13 @@ struct FeedView: View {
                             .foregroundStyle(Color("tqColor"))
                             .background(Color(.white))
                             .clipShape(Circle())
-                            //.offset(x: 159, y: 265)
                         }
                     
                     .padding(.vertical, 30)
                     .padding(.trailing, 20)
                 }
                 
-                }
+            }
             .background(Color("bkColor"))
         
                

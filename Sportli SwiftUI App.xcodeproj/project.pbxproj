@@ -26,6 +26,7 @@
 		3A1676D22AF4AA500059E19D /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676D12AF4AA500059E19D /* LeaderboardView.swift */; };
 		3A1676D42AF4AA680059E19D /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1676D32AF4AA680059E19D /* MessagesView.swift */; };
 		3A55363B2AF7005A009E52E7 /* FeedFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55363A2AF7005A009E52E7 /* FeedFilterViewModel.swift */; };
+		3A55363E2AF92B52009E52E7 /* CommunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55363D2AF92B52009E52E7 /* CommunitiesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		3A1676D12AF4AA500059E19D /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 		3A1676D32AF4AA680059E19D /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		3A55363A2AF7005A009E52E7 /* FeedFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedFilterViewModel.swift; sourceTree = "<group>"; };
+		3A55363D2AF92B52009E52E7 /* CommunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		3A1676962AF41B5F0059E19D /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				3A55363C2AF92B1D009E52E7 /* Communities  */,
 				3A16769B2AF41BEB0059E19D /* Components */,
 				3A1676CC2AF4A9D60059E19D /* Profile */,
 				3A1676CB2AF4A95E0059E19D /* Search */,
@@ -242,6 +245,14 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		3A55363C2AF92B1D009E52E7 /* Communities  */ = {
+			isa = PBXGroup;
+			children = (
+				3A55363D2AF92B52009E52E7 /* CommunitiesView.swift */,
+			);
+			path = "Communities ";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -318,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A1676D22AF4AA500059E19D /* LeaderboardView.swift in Sources */,
+				3A55363E2AF92B52009E52E7 /* CommunitiesView.swift in Sources */,
 				3A017DA42AF69801008EC8DF /* TabData.swift in Sources */,
 				3A16768B2AF3F6040059E19D /* ContentView.swift in Sources */,
 				3A017DA62AF69AE4008EC8DF /* CustomTabBar.swift in Sources */,
