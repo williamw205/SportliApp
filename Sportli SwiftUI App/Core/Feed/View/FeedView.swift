@@ -26,16 +26,19 @@ struct FeedView: View {
                         .scaledToFill()
                         .frame(width: 120, height: 25)
         
+                    
+                    
                     feedFilterBar
                     
                     
                 }
                 .frame(height: 70)
                 
+                
                 ZStack (alignment: .bottomTrailing) {
                     
                     feedsView
-                    
+                  
                     Button {
                         print("Show me new post view")
                     } label: {
@@ -51,6 +54,10 @@ struct FeedView: View {
                     .padding(.vertical, 30)
                     .padding(.trailing, 20)
                 }
+                    
+                    
+                
+                
                 
             }
             .background(Color("bkColor"))

@@ -72,6 +72,7 @@ struct PostRowView: View {
             .frame(width: 400)
         }
         .padding()
+        
     }
 }
 
